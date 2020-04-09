@@ -205,6 +205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: game_options
       objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 004fb34d45d06a73880552894b042b94, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 004fb34d45d06a73880552894b042b94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -251,6 +255,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 004fb34d45d06a73880552894b042b94, type: 3}
+--- !u!1 &1087637463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 004fb34d45d06a73880552894b042b94,
+    type: 3}
+  m_PrefabInstance: {fileID: 1087637462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1087637464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087637463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e26332d37b9f4b0aabf6151481527f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2082490021
 GameObject:
   m_ObjectHideFlags: 0
