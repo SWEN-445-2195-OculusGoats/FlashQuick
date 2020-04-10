@@ -1,0 +1,46 @@
+{
+  "title": "Harry Potter Characters",
+  "num_questions": 5,
+  "questions": [
+    {
+      "question_title": "Who is the boy who lived?",
+      "question_option_1": "Harry",
+      "question_option_2": "Ron",
+      "question_option_3": "Dumbledore",
+      "question_option_4": "Hermione",
+      "correct": 1
+    },
+    {
+      "question_title": "How many staircases does Hogwarts have?",
+      "question_option_1": "142",
+      "question_option_2": "163",
+      "question_option_3": "148",
+      "question_option_4": "152",
+      "correct": 1
+    },
+    {
+      "question_title": "Where is the Slytherin common room located?",
+      "question_option_1": "Next to the kitchens",
+      "question_option_2": "In the west tower",
+      "question_option_3": "The dungeons",
+      "question_option_4": "Below the great wall",
+      "correct": 3
+    },
+    {
+      "question_title": "What position does Harry play on his Quidditch team?",
+      "question_option_1": "Bludger",
+      "question_option_2": "Chaser",
+      "question_option_3": "Keeper",
+      "question_option_4": "Seeker",
+      "correct": 4
+    },
+    {
+      "question_title": "Who is Fluffy?",
+      "question_option_1": "Hagrid's Dragon",
+      "question_option_2": "A 3-headed dog",
+      "question_option_3": "Harry's Owl",
+      "question_option_4": "Ron's Rat",
+      "correct": 2
+    }
+  ]
+}
