@@ -4,14 +4,24 @@ using System;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
+[Serializable]
+public class GameInfo
+{
+    public int questions_remaining;
+    public int questions_correct;
+    public string q_title;
+    public int question_number; 
+}
 
 public class Text_Control_Main : MonoBehaviour
 {
     // base string paths
-    private static string BASE_PATH_TEXT = "arch_with_question/Canvas/";
-    private static string BASE_PATH_REG = "arch_with_question/";
-    private static string BASE_PATH_JSON = "Assets/Quizzes/";
+    public static string BASE_PATH_TEXT = "arch_with_question/Canvas/";
+    public static string BASE_PATH_REG = "arch_with_question/";
+    public static string BASE_PATH_JSON = "Assets/Quizzes/";
     // JSON object
     public dynamic values;
     // Scoring mechanisms
@@ -161,6 +171,13 @@ public class Text_Control_Main : MonoBehaviour
         if (questions_remaining == 0)
         {
             Debug.Log("Quiz completed, switching scenes.");
+            GameInfo gameinfo = new GameInfo();
+            gameinfo.questions_remaining = questions_remaining;
+            gameinfo.questions_correct = questions_correct;
+            gameinfo.q_title = values.title;
+            gameinfo.question_number = question_number;
+            File.WriteAllText("Assets/Quizzes/game_data.json", JsonConvert.SerializeObject(gameinfo));
+            SceneManager.LoadScene("EndScene");
         }
         else
         {
@@ -215,7 +232,7 @@ public class Text_Control_Main : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LoadJson("chemistry.json");
+        LoadJson("biology.json");
         HandleMaterials();
         CollectObjects();
         questions_correct = 0;
