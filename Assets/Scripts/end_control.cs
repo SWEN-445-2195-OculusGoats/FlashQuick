@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class end_control : MonoBehaviour
 {
@@ -51,5 +52,33 @@ public class end_control : MonoBehaviour
         }
         fraction.text = values.questions_correct.ToString() + "/" + values.question_number.ToString();
         percent.text = (per * 100).ToString() + "%";
+    }
+
+    // Update is called once per frame
+    void Update(){
+
+        if (Input.GetMouseButtonDown(0)){
+            RaycastHit hit = new RaycastHit();
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            if(Physics.Raycast (ray, out hit)){
+                if(hit.transform != null){
+                    PrintName(hit.transform.gameObject);
+                    if (hit.transform.gameObject.name == "MainMenuButton"){
+                        SceneManager.LoadScene("StartScreen");
+                    }else if(hit.transform.gameObject.name == "RestartButton"){
+                        SceneManager.LoadScene("GameScene");
+                    }else if(hit.transform.gameObject.name == "StatisticsButton"){
+                        //TODO: We currently don't have a statistics scene but when we do link here
+                        //SceneManager.LoadScene("StatisticsScene");
+                    }
+                    
+                }  
+            }
+        } 
+    }
+
+    void PrintName(GameObject go){
+        print(go.name);
     }
 }

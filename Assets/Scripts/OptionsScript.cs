@@ -33,8 +33,6 @@ public class OptionsScript : MonoBehaviour
                     }
                     
                 }  
-            }else{
-                print("Nada");
             }
         } 
     }

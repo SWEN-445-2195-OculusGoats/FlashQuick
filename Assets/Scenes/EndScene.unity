@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 182004144}
   - component: {fileID: 182004146}
   - component: {fileID: 182004145}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Remaining_C_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 265097774}
   - component: {fileID: 265097773}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Overhead Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 322610797}
   - component: {fileID: 322610799}
   - component: {fileID: 322610798}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Q_Opt_1_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 391915161}
   - component: {fileID: 391915163}
   - component: {fileID: 391915162}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sub_data_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 695006429}
   - component: {fileID: 695006430}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 750332731}
   - component: {fileID: 750332733}
   - component: {fileID: 750332732}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sub_data_S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 775368051}
   - component: {fileID: 775368053}
   - component: {fileID: 775368052}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Q_Opt_2_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -682,7 +682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 825440023}
   - component: {fileID: 825440022}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Frontfacing Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,7 +775,7 @@ GameObject:
   - component: {fileID: 854588532}
   - component: {fileID: 854588534}
   - component: {fileID: 854588533}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Correct_Q_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,7 +852,7 @@ GameObject:
   - component: {fileID: 1006097839}
   - component: {fileID: 1006097841}
   - component: {fileID: 1006097840}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Percent_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -929,7 +929,7 @@ GameObject:
   - component: {fileID: 1528620646}
   - component: {fileID: 1528620648}
   - component: {fileID: 1528620647}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Header_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1006,7 +1006,7 @@ GameObject:
   - component: {fileID: 1572759705}
   - component: {fileID: 1572759707}
   - component: {fileID: 1572759706}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Q_Opt_3_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1083,7 +1083,7 @@ GameObject:
   - component: {fileID: 1720828707}
   - component: {fileID: 1720828706}
   - component: {fileID: 1720828705}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1149,7 +1149,7 @@ GameObject:
   - component: {fileID: 1773069470}
   - component: {fileID: 1773069472}
   - component: {fileID: 1773069471}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Remaining_Q_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1227,7 +1227,7 @@ GameObject:
   - component: {fileID: 1863313144}
   - component: {fileID: 1863313143}
   - component: {fileID: 1863313142}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1336,7 +1336,7 @@ GameObject:
   - component: {fileID: 1995909539}
   - component: {fileID: 1995909541}
   - component: {fileID: 1995909540}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Title_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1413,7 +1413,7 @@ GameObject:
   - component: {fileID: 2047043030}
   - component: {fileID: 2047043032}
   - component: {fileID: 2047043031}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Correct_C_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1498,6 +1498,7 @@ GameObject:
   - component: {fileID: 7548900561815202221}
   - component: {fileID: 4803625865992981045}
   - component: {fileID: 4778404831330757978}
+  - component: {fileID: 632332421092412839}
   m_Layer: 0
   m_Name: StatisticsButton
   m_TagString: Untagged
@@ -1505,6 +1506,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &632332421092412839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632332421092412838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000009, z: 0.020000005}
+  m_Center: {x: -0.0000000023283064, y: 0.000000027939677, z: 0}
 --- !u!33 &632849899812854160
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1524,7 +1538,7 @@ GameObject:
   - component: {fileID: 3075262731239526260}
   - component: {fileID: 7744961819383105508}
   - component: {fileID: 8313376276507061260}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Triangle_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1589,18 +1603,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &833917098673412934
-MonoBehaviour:
+--- !u!65 &833917098673412934
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833917098673412933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6376ad23c04adf40806ceb1679c328c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000009, z: 0.020000005}
+  m_Center: {x: -0.0000000023283064, y: 0.000000027939677, z: 0}
 --- !u!1 &974420927696141132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,7 +1626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4314043217799416159}
   - component: {fileID: 974420927696141133}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: arch_with_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1649,7 +1664,7 @@ GameObject:
   - component: {fileID: 7724698134249156038}
   - component: {fileID: 4238476938374286772}
   - component: {fileID: 2828619617376715831}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1667,7 +1682,7 @@ GameObject:
   - component: {fileID: 5637501046643104392}
   - component: {fileID: 4383982418891152044}
   - component: {fileID: 4846401388242084903}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1738,6 +1753,7 @@ GameObject:
   - component: {fileID: 6490029343712073438}
   - component: {fileID: 7353652619996455997}
   - component: {fileID: 800238405594307353}
+  - component: {fileID: 3204567862179230300}
   m_Layer: 0
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -1745,6 +1761,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &3204567862179230300
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3204567862179230299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000009, z: 0.020000005}
+  m_Center: {x: -0.0000000023283064, y: 0.000000027939677, z: 0}
 --- !u!23 &3596677593154548713
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1989,7 +2018,7 @@ GameObject:
   - component: {fileID: 3652183256766765478}
   - component: {fileID: 5484966155043391982}
   - component: {fileID: 7486407518348538906}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Triangle_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2110,7 +2139,7 @@ GameObject:
   - component: {fileID: 5873145031294124025}
   - component: {fileID: 76676119991803481}
   - component: {fileID: 6663665718673778162}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: End_Pane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2250,7 +2279,7 @@ GameObject:
   - component: {fileID: 4679571453199798139}
   - component: {fileID: 1534404579232321078}
   - component: {fileID: 3596677593154548713}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Title_Pane.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
