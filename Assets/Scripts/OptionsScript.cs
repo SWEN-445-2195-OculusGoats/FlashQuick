@@ -34,7 +34,10 @@ public class OptionsScript : MonoBehaviour
                     
                 }  
             }
-        } 
+        } else if (Input.GetKeyDown(KeyCode.Escape)){
+                        SceneManager.LoadScene("GameScene");
+                        //Same comment here as ResumeButton option above
+            }
     }
 
     void PrintName(GameObject go){
