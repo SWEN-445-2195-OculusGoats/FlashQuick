@@ -13,8 +13,9 @@ public class GameInfo
     public int questions_remaining;
     public int questions_correct;
     public string q_title;
-    public int question_number; 
+    public int question_number;
 }
+
 
 public class Text_Control_Main : MonoBehaviour
 {
@@ -232,7 +233,15 @@ public class Text_Control_Main : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LoadJson("biology.json");
+        dynamic selection;
+        using (StreamReader r = new StreamReader(BASE_PATH_JSON + "selected_quiz.json"))
+        {
+            string json = r.ReadToEnd();
+            selection = JsonConvert.DeserializeObject(json);
+            Debug.Log("JSON loaded for selected_quiz.json");
+            Debug.Log("Quiz Selected: " + selection.selected_game);
+        }
+        LoadJson(selection.selected_game.ToString());
         HandleMaterials();
         CollectObjects();
         questions_correct = 0;
