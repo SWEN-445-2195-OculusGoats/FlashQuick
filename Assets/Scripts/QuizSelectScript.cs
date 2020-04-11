@@ -6,20 +6,8 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-[Serializable]
-public class SelectedGame
-{
-    public string selected_game;
-}
-
 public class QuizSelectScript : MonoBehaviour
 {
-    // base string paths
-    public static string BASE_PATH_JSON = "Assets/Quizzes/";
-
-
-
     void Update(){
         if(Input.GetMouseButtonDown(0)){
             RaycastHit hit = new RaycastHit();
@@ -30,29 +18,22 @@ public class QuizSelectScript : MonoBehaviour
                     PrintName(hit.transform.gameObject);
                     if (hit.transform.gameObject.name == "HarryBox")
                     {
-                        SelectedGame selection = new SelectedGame();
-                        selection.selected_game = "harry.json";
-                        File.WriteAllText("Assets/Quizzes/selected_quiz.json", JsonConvert.SerializeObject(selection));
-                        SceneManager.LoadScene("GameScene");
+                        PlayerPrefs.SetString("QuizType","harry.json");
                     }
-                    else if (hit.transform.gameObject.name == "PhysicsBox")
+                    else if (hit.transform.gameObject.name == "BioBox")
                     {
-                        SelectedGame selection = new SelectedGame();
-                        selection.selected_game = "biology.json";
-                        File.WriteAllText("Assets/Quizzes/selected_quiz.json", JsonConvert.SerializeObject(selection));
-                        SceneManager.LoadScene("GameScene");
+                        PlayerPrefs.SetString("QuizType","biology.json");
                     }
                     else if (hit.transform.gameObject.name == "ChemBox")
                     {
-                        SelectedGame selection = new SelectedGame();
-                        selection.selected_game = "chemistry.json";
-                        File.WriteAllText("Assets/Quizzes/selected_quiz.json", JsonConvert.SerializeObject(selection));
-                        SceneManager.LoadScene("GameScene");
+                        PlayerPrefs.SetString("QuizType","chemistry.json");
                     }
+                    SceneManager.LoadScene("GameInstructionsScene");
                 }
             }
         }
     }
+
 
     void PrintName(GameObject go){
         print(go.name);
