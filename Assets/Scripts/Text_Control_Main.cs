@@ -276,6 +276,8 @@ public class Text_Control_Main : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4))
         {
             HandleQuestionResponse(4);
+        }else if (Input.GetKeyDown(KeyCode.Escape)){
+            SceneManager.LoadScene("GamePausedScene");
         }
     }
 }
