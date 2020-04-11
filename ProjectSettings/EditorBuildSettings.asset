@@ -14,6 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GameInstructionsScene.unity
     guid: 49f90a279e7858c8493a5067d40e3ba2
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/StartScreen.unity
     guid: 241adf88b579e4798a6670ed39da1be2
@@ -23,4 +24,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QScene.unity
     guid: 42ef142cf8060436f83d0ccfbfe71baa
+=======
+>>>>>>> master
   m_configObjects: {}
