@@ -69,8 +69,7 @@ public class end_control : MonoBehaviour
                     }else if(hit.transform.gameObject.name == "RestartButton"){
                         SceneManager.LoadScene("GameScene");
                     }else if(hit.transform.gameObject.name == "StatisticsButton"){
-                        //TODO: We currently don't have a statistics scene but when we do link here
-                        //SceneManager.LoadScene("StatisticsScene");
+                        SceneManager.LoadScene("StatsScene");
                     }
                     
                 }  
